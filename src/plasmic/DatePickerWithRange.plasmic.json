@@ -1,0 +1,20 @@
+{
+  "type": "react",
+  "displayName": "DatePickerWithRange",
+  "props": [
+    {
+      "name": "minDate",
+      "type": "string",
+      "default": "2023-01-01"
+    },
+    {
+      "name": "maxDate",
+      "type": "string",
+      "default": "2024-01-01"
+    },
+    {
+      "name": "onDateRangeSelect",
+      "type": "function"
+    }
+  ]
+}
